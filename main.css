@@ -1,140 +1,174 @@
 * {
     box-sizing: border-box;
 }
-body {
+body{
     margin:0 auto;
     max-width: 1200px;
-    .container {
+} 
+
+.container {
     margin-top: 40px;
-    }
-    .logo{
+}
+
+.logo{
     margin-left: 40px;
     margin-bottom: -40px;
-    }
-    .logo h4 {
+}
+
+.logo h4 {
     border: 3px black solid;
     display: inline;
     padding: 10px;
     color: orangered;
-    }
-}    
-.navigation{
-    .nav {
+}
+
+.nav-bar {
+    margin-left: 700px; 
+}
+
+.nav {
     display: inline-block;
     border-bottom: 3px solid orangered;
     margin: 20px;
-    }
-    .nav-bar {
-    margin-left: 700px;
-    }
 }
-.description {
-    .photo {
+
+.photo {
     margin-top: 50px;
     height: 290px;
     width:270px;
     position: relative;
     margin-left: 100px;
-    }
-    .about {
+}
+
+.about {
     margin-top: -60px;
     margin-left: 305px;
     position: absolute;
     height: 200px;
     width: 500px;
-    }
-    .live {
-    margin-top: 5px;
-    margin-left: 305px;
-    font-weight: bold;
-    text-transform: uppercase;
-    }
-    .about-text {
+
+}
+
+.about-text {
     color: orangered;
     font-size: 50px;
     position: relative;
     bottom: 3em;
     }
+
+.live {
+    margin-top: 0px;
+    margin-left: 305px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
-.introduction {
+
+.introduction  {
     position: relative;
     background-color: lightgray;
     max-width: 1100px;
     max-height: 500px;
-    height: 400px;
+    height:400px;
     padding: 5%;
-    }
-    .details, li {
+    
+}
+
+.details, li {
     list-style-type: none;
     text-align: left;
-    left: 300px;
-    text-align: right;
-    width: 40%;
-    float: left;
-    }
-    .hello {
-    font-size: 40px;
-    }
-    .name { 
-    font-size: 20px;
-    }
+}
+
 .box {
     position: relative;
-    border: 2px black solid;
-    width: 50%;
+    border:2px black solid;
+    width: 60%;
     height: 300px;
     background-color: white;
-    float: right;
+    float: left;
     padding: 5%;
-    }
+}
+
 .experience {
     margin-left: 80px;
-    .contain {
+}
+
+.contain {
     max-width: 400px;
     display: inline-block;
     height: 200px;
     padding: 60px;
     margin-bottom: 20px;
-    }
 }
-.project {
+
+project {
     max-width: 1000px;
-    }
-    .project-images {
+    
+}
+
+.project-images {
     height: 200px;
     margin: none;
-    }
+}
+
 .contact {
     padding-bottom: 70px;
-    }
-    .comment::placeholder {
+}
+
+form {
+    margin-left: 400px;
+    
+}
+
+ input {
+   height: 30px;
+   width: 500px;
+   display: block;
+   margin-bottom: 15px;
+   background-color: lightgrey;
+   color: grey;
+ }
+
+ .comment::placeholder  {
     color: red;
     margin-top: 30px;
-    height: 150px;
-    }
-    button {
-    height: 30px;
-    width: 60px;
-    margin-left: 445px;
-    color:white;
-    background-color: orangered;
-    border-radius: 5px;
-    }
-    input {
-    height: 30px;
-    width: 500px;
-    display: block;
-    margin-bottom: 15px;
-    background-color: lightgrey;
-    color: grey;
-    }
-    form {
-    margin-left: 400px;
-    }
- .closing img {
+}
+
+ button {
+     height: 30px;
+     width: 60px;
+     margin-left: 445px;
+     color:white;
+     background-color: orangered;
+     border-radius: 5px;
+ }
+ .comment {
+     height: 150px;
+ }
+
+.size {
+    height:30px;
+    width:30px;
+}
+.name { 
+    font-size: 20px;
+}
+.hello {
+    font-size: 40px;
+}
+.details {
+    left: 300px;
+}
+.closing {
+    text-align: center;
+}
+.details {
+    text-align: right;
+    width: 40%;
+    float: left;
+}
+.closing img {
     height: 2em;
     width: 2em;
     vertical-align: middle;
-    text-align: center;
-    }
- 
+
+}
