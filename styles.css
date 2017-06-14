@@ -6,17 +6,26 @@ body {
   max-width: 1200px;
 }
 body .container {
-  margin-top: 40px;
+  margin-top: 0 auto;
+  width: 80%;
+  clear: both;
 }
 body .logo {
   margin-left: 40px;
-  margin-bottom: -40px;
+  display: inline;
+  padding: 10px;
+  color: orangered;
 }
-body .logo h4 {
+body h4 {
   border: 3px black solid;
   display: inline;
   padding: 10px;
   color: orangered;
+}
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 .navigation .nav {
   display: inline-block;
@@ -66,7 +75,7 @@ li {
   text-align: left;
   left: 300px;
   text-align: right;
-  width: 40%;
+  width: 50%;
   float: left;
 }
 .hello {

@@ -1,140 +1,214 @@
 * {
     box-sizing: border-box;
 }
-body {
+body{
     margin:0 auto;
-    max-width: 1200px;
-    .container {
+    max-width: auto;
+    position: relative;
+} 
+
+.container {
     margin-top: 40px;
-    }
-    .logo{
-    margin-left: 40px;
-    margin-bottom: -40px;
-    }
-    .logo h4 {
+}
+
+.logo{
+     margin-bottom: -40px;
+}
+
+.logo p {
     border: 3px black solid;
     display: inline;
     padding: 10px;
     color: orangered;
-    }
-}    
-.navigation{
-    .nav {
-    display: inline-block;
-    border-bottom: 3px solid orangered;
-    margin: 20px;
-    }
-    .nav-bar {
-    margin-left: 700px;
-    }
 }
-.description {
-    .photo {
+
+.nav {
+    float: left;
+    position: relative;
+    margin-left: 700px;    
+}
+.nav-bar1 {
+    padding: 8px;
+    border-bottom: 3px solid orangered;
+    margin-right: 1em;
+}
+.nav-bar2 {
+    padding: 8px;
+    border-bottom: 3px solid orangered;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+.nav-bar3 {
+    padding: 8px;
+    border-bottom: 3px solid orangered;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+.nav-bar4 {
+    padding: 8px;
+    border-bottom: 3px solid orangered;
+    margin-left: 1em;
+}
+
+.photo {
     margin-top: 50px;
     height: 290px;
     width:270px;
     position: relative;
-    margin-left: 100px;
-    }
-    .about {
+    margin-left: 250px;
+}
+
+.about {
     margin-top: -60px;
     margin-left: 305px;
     position: absolute;
     height: 200px;
     width: 500px;
-    }
-    .live {
-    margin-top: 5px;
-    margin-left: 305px;
-    font-weight: bold;
-    text-transform: uppercase;
-    }
-    .about-text {
+
+}
+
+.about-text {
     color: orangered;
     font-size: 50px;
     position: relative;
+    height: 200px;
+    width: 550px;
     bottom: 3em;
+    left: 450px;
+    top: -60px;
+    font-family: 'Times New Roman', Times, serif;
     }
+
+.live {
+    margin-top: 0px;
+    margin-left: 500px;
+    font-weight: bold;
+    text-transform: uppercase;
+    bottom: 150px;
+    position: relative;
 }
-.introduction {
+
+.introduction  {
     position: relative;
     background-color: lightgray;
-    max-width: 1100px;
-    max-height: 500px;
-    height: 400px;
+    max-width: auto;
+    max-height: auto;
+    bottom: 115px;
+    margin-left: 9em;
+    margin-right: 9em;
+    height: 550px;
     padding: 5%;
-    }
-    .details, li {
+
+    
+}
+
+.details, p {
     list-style-type: none;
-    text-align: left;
-    left: 300px;
-    text-align: right;
-    width: 40%;
-    float: left;
-    }
-    .hello {
-    font-size: 40px;
-    }
-    .name { 
-    font-size: 20px;
-    }
+    padding-right: 15px;
+    vertical-align: center;
+    margin-top: 70px;
+    
+}
+p .hello .name .program .covalence {
+    margin: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
 .box {
     position: relative;
-    border: 2px black solid;
-    width: 50%;
-    height: 300px;
+    border:2px black solid;
+    width: 60%;
+    height: 95%;
     background-color: white;
-    float: right;
+    float: left;
     padding: 5%;
-    }
-.experience {
-    margin-left: 80px;
-    .contain {
-    max-width: 400px;
+}
+
+.latin {
+    font-size: 25px;
+}
+
+.contain {
+    /*margin-left: 80px;
+    max-width: 300px;
     display: inline-block;
     height: 200px;
     padding: 60px;
-    margin-bottom: 20px;
-    }
+    margin-bottom: 20px;*/
+    float: left;
+    width: 37%;
+    padding: 2%;
+    margin-left: 5em;
+    margin-right: 5em;
 }
+
 .project {
     max-width: 1000px;
-    }
-    .project-images {
+    
+}
+
+.project-images {
     height: 200px;
     margin: none;
-    }
+}
+
 .contact {
     padding-bottom: 70px;
-    }
-    .comment::placeholder {
+}
+
+form {
+    margin-left: 400px;
+    
+}
+
+ input {
+   height: 30px;
+   width: 500px;
+   display: block;
+   margin-bottom: 15px;
+   background-color: lightgrey;
+   color: grey;
+ }
+
+ .comment::placeholder  {
     color: red;
     margin-top: 30px;
-    height: 150px;
-    }
-    button {
-    height: 30px;
-    width: 60px;
-    margin-left: 445px;
-    color:white;
-    background-color: orangered;
-    border-radius: 5px;
-    }
-    input {
-    height: 30px;
-    width: 500px;
-    display: block;
-    margin-bottom: 15px;
-    background-color: lightgrey;
-    color: grey;
-    }
-    form {
-    margin-left: 400px;
-    }
- .closing img {
+}
+
+ button {
+     height: 30px;
+     width: 60px;
+     margin-left: 445px;
+     color:white;
+     background-color: orangered;
+     border-radius: 5px;
+ }
+ .comment {
+     height: 150px;
+ }
+
+.name { 
+    font-size: 20px;
+}
+.hello {
+    font-size: 75px;
+}
+.details {
+    left: 300px;
+}
+.project-images {
+    text-align: center;
+}
+.details {
+    text-align: right;
+    width: 40%;
+    float: left;
+}
+.images img {
     height: 2em;
     width: 2em;
     vertical-align: middle;
-    text-align: center;
-    }
+
+}
  
